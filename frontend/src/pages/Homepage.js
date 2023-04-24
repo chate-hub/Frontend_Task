@@ -21,7 +21,7 @@ export default function Homepage() {
         <small>Restaurant List</small>
 
         <p>{restaurant.body}</p>
-        <Link to={'/details/${restaurant.id}'}>Read more</Link>
+        <Link to={'/ratings/${restaurant.id}'}>Read more</Link>
       </div>
       ))}
     </div>
